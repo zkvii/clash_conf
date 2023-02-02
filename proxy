@@ -1,0 +1,4 @@
+proxy=http://localhost:10890
+export http_proxy=$proxy
+export https_proxy=$proxy
+git config --global http.proxy $proxy
