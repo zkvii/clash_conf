@@ -11,6 +11,5 @@ fin.close()
 fin = open("config.yaml", "wt")
 #overrite the input file with the resulting data
 fin.write(data)
-fin.write('external-ui: ui')
 #close the file
 fin.close()
