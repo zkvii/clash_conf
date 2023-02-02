@@ -1,0 +1,5 @@
+time="2023-02-03T00:03:51+08:00" level=info msg="Start initial compatible provider 故障转移"
+time="2023-02-03T00:03:51+08:00" level=info msg="Start initial compatible provider 自动选择"
+time="2023-02-03T00:03:51+08:00" level=info msg="Start initial compatible provider 灵魂云"
+time="2023-02-03T00:03:51+08:00" level=info msg="RESTful API listening at: 127.0.0.1:10090"
+time="2023-02-03T00:03:51+08:00" level=info msg="Mixed(http+socks) proxy listening at: [::]:10890"

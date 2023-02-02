@@ -3,6 +3,9 @@ allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: info
+external-ui: public
+external-ui: public
+external-ui: ui
 external-controller: '127.0.0.1:10090'
 dns:
     enable: true

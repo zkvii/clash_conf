@@ -4,7 +4,8 @@ data = fin.read()
 #replace all occurrences of the required string
 data = data.replace('789', '1089')
 data = data.replace('9090','10090')
-data = data.replace('# external-ui: folder','external-ui: ui')
+data = data.replace('log-level: info','log-level: info\nexternal-ui: public')
+# data = data.replace('# external-ui: folder','external-ui: ui')
 #close the input file
 fin.close()
 #open the input file in write mode
