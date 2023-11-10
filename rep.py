@@ -11,7 +11,7 @@ def change_origin_to_yaml(file_path):
     data['mixed-port'] = 10890
     data['external-controller'] = '127.0.0.1:10090'
     data['secret']=''
-    data['external-ui'] = 'public'
+    data['external-ui'] = 'ui'
 
     # Step 3: Write the updated data back to the same file
     with open(file_path, 'w', encoding='utf-8') as file:
